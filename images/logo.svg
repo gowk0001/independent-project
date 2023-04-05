@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1117.09 1117.09">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6b481c;
+      }
+
+      .cls-2 {
+        fill: #a37029;
+      }
+
+      .cls-3 {
+        stroke-width: 17.24px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+        stroke: #6b481c;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        stroke-width: 27.58px;
+      }
+    </style>
+  </defs>
+  <g id="sun_moon" data-name="sun / moon">
+    <circle class="cls-2" cx="697.16" cy="438.41" r="192.5"/>
+    <path class="cls-1" d="m618.18,208.76c-148.45-.31-385.59,199.18-208.12,464.06,192.66,234.49,421.01,63.85,488.51-41.92,1.6,76.9-78.28,258.32-313.63,258.32-224.38,0-366.07-142.58-365.9-367.44-.16-240.89,251.48-360.18,399.14-313.02Z"/>
+    <rect class="cls-2" x="691.98" y="165.1" width="10.37" height="66.21"/>
+    <rect class="cls-2" x="686.8" y="645.51" width="10.37" height="66.21"/>
+    <rect class="cls-2" x="932.18" y="407.9" width="10.37" height="66.21" transform="translate(1378.37 -496.37) rotate(90)"/>
+    <rect class="cls-2" x="451.78" y="402.71" width="10.37" height="66.21" transform="translate(892.78 -21.14) rotate(90)"/>
+    <rect class="cls-2" x="871.46" y="564.96" width="10.37" height="66.21" transform="translate(1903.32 329.48) rotate(131.04)"/>
+    <rect class="cls-2" x="512.5" y="245.65" width="10.37" height="66.21" transform="translate(1067.82 71.28) rotate(131.04)"/>
+    <rect class="cls-2" x="510.98" y="563.24" width="10.37" height="66.21" transform="translate(414.6 1378.47) rotate(-131.72)"/>
+    <rect class="cls-2" x="872.99" y="247.37" width="10.37" height="66.21" transform="translate(1253.28 1122.59) rotate(-131.72)"/>
+  </g>
+  <g id="stairs">
+    <polygon class="cls-1" points="766.33 906.25 355.44 906.79 301.93 928.55 830.93 928.55 766.33 906.25"/>
+    <polygon class="cls-1" points="747.41 976.22 365.75 976.22 432.86 1019.97 649.72 1019.97 747.41 976.22"/>
+    <polygon class="cls-1" points="707.64 858.13 411.24 858.07 355.38 878.27 766.31 878.27 707.64 858.13"/>
+    <polygon class="cls-1" points="666.03 822.36 449.55 822.3 411.24 836.76 705.85 836.76 666.03 822.36"/>
+    <polygon class="cls-2" points="796.11 976.22 317.57 976.22 301.93 928.55 830.93 928.55 796.11 976.22"/>
+    <rect class="cls-2" x="355.38" y="878.27" width="410.94" height="28.25"/>
+    <rect class="cls-2" x="411.24" y="836.76" width="294.62" height="21.31"/>
+  </g>
+  <g id="Layer_4" data-name="Layer 4">
+    <circle class="cls-4" cx="557.4" cy="559.57" r="469.03"/>
+    <circle class="cls-3" cx="558.55" cy="558.55" r="549.93"/>
+  </g>
+</svg>
