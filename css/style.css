@@ -18,6 +18,20 @@ body {
   margin: 0;
 }
 
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 47px;
+  background-color: var(--color-dark);
+  height: 2px;
+  margin: 5px;
+}
+
 .hero-image {
   display: flex;
   flex: 2;
@@ -75,11 +89,6 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   background: #fff;
   z-index: 10;
-
-  &--top {
-    position: fixed;
-    top: 0;
-  }
 }
 
 .hero-tab {
@@ -110,6 +119,7 @@ h1 {
   font-style: normal;
   font-size: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
   color: var(--color-dark);
+  margin: 0;
 }
 
 h2 {
@@ -140,6 +150,10 @@ nav {
   font-style: normal;
 }
 
+ol {
+  padding-left: 1em;
+}
+
 li {
   list-style-type: upper-roman;
   font-family: "ivymode", sans-serif;
@@ -152,12 +166,15 @@ li {
   display: block;
   text-align: center;
   align-items: center;
-  margin: 5%;
+  margin: 1em;
   line-height: 2rem;
   background-color: #ffffff;
   border-radius: 5px;
   box-shadow: 0 0 3px var(--color-dark);
   padding: 2rem;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 i.intro {
@@ -191,7 +208,6 @@ i {
 }
 
 .carousel--content {
-  overflow: scroll;
   overflow-x: scroll;
   display: flex;
   flex-flow: row nowrap;
@@ -217,6 +233,7 @@ i {
 
 .carousel--item img{
   padding: 2em;
+  width: 100px;
 }
 
 footer {
@@ -289,6 +306,14 @@ footer {
 
   .hero-tabs.moon, .hero-tabs.rising, .hero-tabs.sun {
     background-position: bottom;
+  }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .overview {
+    margin: 1em;
   }
 
 }
